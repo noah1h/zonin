@@ -1,0 +1,15 @@
+#products {
+  min-height:400px;
+  padding: 50px;
+}
+.products-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--text-color);
+} 
+.owl-nav {
+  display: none;
+}
+.second-carousel {
+  margin-top: 20px;
+}

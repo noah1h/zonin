@@ -1,0 +1,18 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --theme-color: white;
+  --text-color: black;
+  --primary-color:#8E1616;
+  --secondary-color:#D84040;
+  --light-color: #F2B28C;
+  --blue-color: #2980B9;
+  --blue-light-color: #1D9BB4;
+}
