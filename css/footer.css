@@ -26,6 +26,10 @@
   display: block;
   padding: 5px;
   color: white;
+  transition: all 0.15s ease;
+}
+.footer-link:hover {
+  color: #BC8034;
 }
 .links-title {
   color: white;
