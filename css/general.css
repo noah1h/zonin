@@ -10,9 +10,11 @@ a {
 :root {
   --theme-color: white;
   --text-color: black;
-  --primary-color:#8E1616;
-  --secondary-color:#D84040;
-  --light-color: #F2B28C;
-  --blue-color: #2980B9;
-  --blue-light-color: #1D9BB4;
+  --primary-color:#5E0B15;
+  --secondary-color:#90323D;
+  --light-color: #D9CAB3;
+  
+}
+* {
+  box-sizing: border-box;
 }

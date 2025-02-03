@@ -185,12 +185,12 @@ nav {
     font-size: 20px;
   }
 }
-@media(min-width:320px) {
+@media(max-width:400px) {
   .banner-title {
     font-weight: 700;
     font-size: 25px;
     color: white;
-    width: 300px;
+    width: 250px;
   }
   .about-text {
     padding: 10px;
