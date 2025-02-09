@@ -56,7 +56,7 @@
     </div>
 
     <div class="background-darken"></div>
-    <nav class="container-fluid d-none d-md-block">
+    <nav class="container-fluid d-none d-md-block header-navbar">
       <div class="row">
         <div class="col nav-left">
           <div class="logo">
@@ -72,16 +72,17 @@
       </div>
     </nav>
     <div class="sidebar d-lg-none">
-      <button role="button" class="sidebar-toggle-side">
-        <svg fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-          width="100" height="100" viewBox="0 0 50 50" style="width:40px;">
-          <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1
-            0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002
-            2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45
-            42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
-        </svg>
-      </button>
-      <img class="logo-img-side" src="img/logo-white.png" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="col-10"><img class="logo-img-side" src="img/logo-white.png" alt=""></div>
+          <div class="col-2"><button role="button" class="sidebar-toggle-side">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+          </svg>
+        </button></div>
+        </div>
+      </div>
+     
       <div class="sidebar-links">
         <a class="sidebar-link about-us">About us</a>
         <a class="sidebar-link" href="#products">Products</a>
@@ -220,7 +221,7 @@ description: Product description"
 <div class="category-overlay"></div>
           </a></div>
           </div>
-          <div class="categories-title">Categories</div>
+          <!--<div class="categories-title">Categories</div>
           <div class="products-title">Category 1</div>
       <div class="owl-carousel second-carousel">
         <div class="item"> <a href="img/product-1.jpg" class="glightbox"
@@ -307,11 +308,11 @@ description: Product description"
           <img src="img/product-7.jpg" alt="image" />
 <div class="category-overlay"></div>
         </a></div>
-          </div>
+          </div>-->
 
-
-
-
+          <div class="button-container">
+          <a href="products.html" class="view-all-button">View all</a>
+        </div>
       </section>
 
       <section id="info">

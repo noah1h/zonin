@@ -2,7 +2,7 @@ $(document).ready(function() {
   $(".loading").css({
     "display": "none"
 });
-  $('.first-carousel').owlCarousel({
+  /*$('.first-carousel').owlCarousel({
     items:4,
       loop:true,
       margin:10,
@@ -22,10 +22,14 @@ $(document).ready(function() {
         }
     }
     
-  })
+  })*/
   $('.second-carousel').owlCarousel({
     margin:10,
     nav:true,
+    autoplay:true,
+      autoplayTimeout:2500,
+      autoplayHoverPause:true,
+      loop:true,
     responsive:{
         0:{
             items:2

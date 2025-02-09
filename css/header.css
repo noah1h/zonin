@@ -12,7 +12,7 @@ header {
   text-align: center;
   flex-direction: column;
 }
-nav {
+nav.header-navbar {
   background-color: var(--primary-color);
   height: 60px;
   position: fixed;
@@ -64,6 +64,10 @@ nav {
   border: none;
   background: transparent;
   margin-left: 20px;
+}
+.sidebar-toggle-side {
+  margin-left: 0;
+  margin-top: 20px;
 }
 .sidebar-link {
   display: block;
@@ -173,6 +177,7 @@ nav {
 .tiktok {
   background-color: #EE1D52;
 }
+
 
 @media(max-width:768px) {
   header {
