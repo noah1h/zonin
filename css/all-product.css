@@ -23,6 +23,9 @@ main {
   padding: 5px;
   margin: 5px;
 }
+.product-link {
+  color: unset;
+}
 .all-products {
   margin-top: 30px;
 }

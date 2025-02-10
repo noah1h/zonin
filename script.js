@@ -42,6 +42,25 @@ $(document).ready(function() {
         }
     }
   })
+  $('.third-carousel').owlCarousel({
+    margin:10,
+    nav:true,
+    autoplay:true,
+      autoplayTimeout:2500,
+      autoplayHoverPause:true,
+      loop:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+  })
   
   // Sidebar JS
   
