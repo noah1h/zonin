@@ -24,13 +24,17 @@ nav.header-navbar {
 }
 .nav-links {
   color: white;
-  padding-right: 70px;
+  padding-right: 50px;
   transition: font-size 0.15s, font-weight 0.15s ease;
   font-size: 18px;
 }
 .nav-links:hover {
   font-size: 20px;
   font-weight: 600;
+  color: white;
+}
+.nav-links:focus {
+  color: white;
 }
 .banner-title {
   font-weight: 700;
@@ -80,8 +84,12 @@ nav.header-navbar {
   font-size: 20px;
   border: black 1px solid;
   transition: all 0.15s ease;
+  border-radius: 5px;
 }
-.sidebar-link:hover {
+.sidebar-link:hover,
+.dropdown-menu-side:hover {
+  background-color: var(--primary-color);
+  border: black 1px solid;
   padding: 15px;
 }
 .logo-img-side {
@@ -176,6 +184,20 @@ nav.header-navbar {
 }
 .tiktok {
   background-color: #EE1D52;
+}
+.dropdown-menu-side {
+  display: block;
+  width: 90% !important;
+  background-color: var(--primary-color);
+  color: white;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  border: black 1px solid;
+  transition: all 0.15s ease;
+  text-align: start;
+  border-radius: 5px !important;
 }
 
 

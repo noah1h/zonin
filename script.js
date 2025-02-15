@@ -87,7 +87,7 @@ $(document).ready(function() {
     })
   
     // About menu
-  
+  /*
     const aboutButton = $('.about-us');
   const aboutMenu = $('.about-popup');
   const darkOverlay = $('.background-darken');
@@ -113,5 +113,5 @@ $(document).ready(function() {
     contactsMenu.hide(500); // Close contacts menu if it's open
     darkOverlay.fadeOut(500);
   });
-  
+  */
 });
