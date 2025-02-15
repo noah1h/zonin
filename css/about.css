@@ -1,0 +1,29 @@
+#about {
+  min-height: 400px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: white;
+}
+.zonin-contact-img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid white;
+}
+.about-container {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  border: 1px solid white;
+}
+.aboutus-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+}
+.aboutus-text {
+  padding-top: 20px;
+  font-size: 22px;
+}
