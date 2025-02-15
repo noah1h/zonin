@@ -23,17 +23,17 @@ nav.header-navbar {
   width: 150px;
 }
 .nav-links {
-  color: white;
+  color: white !important;
   padding-right: 50px;
   transition: all 0.15s ease;
   font-size: 18px;
   font-weight: 600;
 }
 .nav-links:hover {
-  color: rgb(208, 208, 208);
+  color: rgb(208, 208, 208) !important;
 }
 .nav-links:focus {
-  color: white;
+  color: white !important;
 }
 .banner-title {
   font-weight: 700;
@@ -198,7 +198,16 @@ nav.header-navbar {
   text-align: start;
   border-radius: 5px !important;
 }
-
+.header-navbar .btn {
+  border: none;
+}
+.header-navbar .btn:focus {
+  border: unset;
+}
+.sidebar .btn:focus {
+  border: black 1px solid;
+  background-color: var(--primary-color);
+}
 
 @media(max-width:768px) {
   header {
