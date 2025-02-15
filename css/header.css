@@ -25,13 +25,12 @@ nav.header-navbar {
 .nav-links {
   color: white;
   padding-right: 50px;
-  transition: font-size 0.15s, font-weight 0.15s ease;
+  transition: all 0.15s ease;
   font-size: 18px;
+  font-weight: 600;
 }
 .nav-links:hover {
-  font-size: 20px;
-  font-weight: 600;
-  color: white;
+  color: rgb(208, 208, 208);
 }
 .nav-links:focus {
   color: white;
@@ -90,7 +89,7 @@ nav.header-navbar {
 .dropdown-menu-side:hover {
   background-color: var(--primary-color);
   border: black 1px solid;
-  padding: 15px;
+  color: rgb(206, 206, 206);
 }
 .logo-img-side {
   width: 200px;
